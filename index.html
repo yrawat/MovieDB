@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {
+    background-image: url("background_webpage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+input[type=text] {
+    width: 345px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    font-family:Lucida Console;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
+.button1 {
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-family:Lucida Console;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+#city
+{
+  margin-left:300px;
+  margin-top:40px;
+  font-size:20pt;
+  border-radius:40px;
+}
+
+#submit
+{
+  height:65px;
+  width:100px;
+  border-radius:20px;
+  
+}
+</style>
+
+    <meta charset="UTF-8">
+    <title>MovieDB</title>
+    <script type="text/javascript" src="p5.js"></script>
+
+    <script type="text/javascript" src="p5.dom.js"></script>
+    <script type="text/javascript" src="p5.sound.js"></script>
+
+    <script type="text/javascript" src="sketch.js"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+  </br>
+<img src="top.png">
+    <p>
+      
+      <input type="text" name="search" placeholder="Search" id ="city" />
+    
+      
+      <button class="button1" id="submit"><h6>SUBMIT</h6></button>
+    </p>
+    
+  </body>
+</html>
